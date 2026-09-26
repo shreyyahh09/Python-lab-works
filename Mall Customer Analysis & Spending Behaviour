@@ -1,0 +1,95 @@
+# Mall Customer Analysis & Spending Behaviour 📊
+
+http://localhost:8888/notebooks/Mall%20Customer%20Analysis%20and%20Spending%20Behaviour.ipynb
+
+## Overview
+
+This project analyses customer characteristics and spending behaviour using the Mall Customers dataset.
+
+The analysis looks at factors such as age, gender, annual income, and spending score to understand customer patterns and their relationship with spending behaviour.
+
+## Objective
+
+The main objective is to explore customer characteristics and understand how different factors are related to their spending score.
+
+The project focuses on:
+
+- Understanding the distribution of customers by age and gender.
+- Analysing annual income and spending scores.
+- Studying the relationship between customer characteristics.
+- Identifying correlations between the variables.
+- Using Decision Tree models to analyse customer spending behaviour.
+
+## Dataset
+
+The dataset contains **200 customer observations** with the following variables:
+
+- `CustomerID`
+- `Gender`
+- `Age`
+- `Annual Income (k$)`
+- `Spending Score (1-100)`
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Data Processing
+
+The dataset was checked for missing values and descriptive statistics were generated.
+
+There were no missing values in the dataset. The `Gender` variable was converted into numerical form using Label Encoding before conducting the analysis. :contentReference[oaicite:0]{index=0}
+
+## Exploratory Data Analysis
+
+Different visualizations were used to understand the data, including:
+
+- Correlation heatmap
+- Pair plot
+- Gender distribution
+- Age distribution
+- Income vs Spending Score scatter plot
+
+The analysis explores how customer age, gender, and annual income are related to spending behaviour. :contentReference[oaicite:1]{index=1}
+
+## Correlation Analysis
+
+A correlation matrix was created to examine the relationship between the variables.
+
+The analysis shows a negative correlation of approximately **-0.33 between Age and Spending Score**, while the relationship between Annual Income and Spending Score is very weak. :contentReference[oaicite:2]{index=2}
+
+## Decision Tree Modelling
+
+A Decision Tree model was used to analyse spending score based on:
+
+- Age
+- Annual Income
+- Gender
+
+The model was evaluated using Mean Squared Error and R-squared. :contentReference[oaicite:3]{index=3}
+
+Different Decision Tree variations were also explored using Gini impurity, entropy, and minimum sample split. :contentReference[oaicite:4]{index=4}
+
+## Conclusion
+
+The project provides an exploratory view of customer characteristics and spending behaviour. It combines data visualization with Decision Tree modelling to understand customer patterns based on demographic and income-related variables.
+
+## Future Scope
+
+The analysis can be extended by:
+
+- Exploring customer segmentation.
+- Applying clustering techniques such as K-Means.
+- Comparing different machine learning models.
+- Improving model performance through feature engineering and parameter tuning.
+- Developing customer segments based on income and spending behaviour.
+
+## Author
+
+**Shreya Kispotta**
